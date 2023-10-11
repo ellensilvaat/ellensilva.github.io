@@ -1,0 +1,20 @@
+.popup-content {
+  margin: auto;
+  width: 350px;
+  height: 237.91px;
+  justify-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 470px){
+  .popup-content{
+    width: 282px;
+    height: 322px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 471px) and (max-width: 900px){
+  .popup-content{
+    width: 40vh;
+  }
+}

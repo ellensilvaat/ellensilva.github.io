@@ -1,0 +1,27 @@
+.elements__like {
+  position: relative;
+  padding-top: 29px;
+  margin: 0;
+  width: 21px;
+  height: 19px;
+  cursor: pointer;
+}
+
+.elements__like:hover {
+  opacity: 0.7;
+}
+
+.elements__like-active{
+  position: relative;
+  padding-top: 29px;
+  margin: 0;
+  width: 21px;
+  height: 19px;
+  cursor: pointer;
+  display: none;
+}
+
+
+
+
+

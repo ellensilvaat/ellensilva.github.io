@@ -1,0 +1,18 @@
+.elements__delete {
+  position: absolute;
+  top: 40px;
+  right: .5px;
+  z-index: 1;
+}
+
+.elements__delete:hover {
+  opacity: .5;
+}
+
+
+@media screen and (min-width: 1021px) and (max-width: 1200px) {
+  .elements__delete {
+    left: 280px;
+    right: 0;
+  }
+}

@@ -1,0 +1,19 @@
+.myPlace {
+  margin: auto;
+  display: block;
+  max-width: 75vw;
+  max-height: 75vh;
+}
+
+.myPlace, #captar {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  }
+
+  @media only screen and (max-width: 700px){
+    .myPlace {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inter'), local('Inter-Regular'), url('caminho-para-o-arquivo-de-fonte-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Inter Medium'), local('Inter-Medium'), url('caminho-para-o-arquivo-de-fonte-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Inter Black'), local('Inter-Black'), url('caminho-para-o-arquivo-de-fonte-900.woff2') format('woff2');
+}

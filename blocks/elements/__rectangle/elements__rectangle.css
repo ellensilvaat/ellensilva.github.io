@@ -1,0 +1,23 @@
+.elements__rectangle{
+  position: absolute;
+  margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .elements__rectangle{
+    width: 55vh;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 680px) {
+  .elements__rectangle{
+    width: 58vh;
+  }
+}
+
+
+@media screen and (min-width: 1021px) and (max-width: 1200px) {
+  .elements__rectangle{
+    width: 48vh;
+  }
+}

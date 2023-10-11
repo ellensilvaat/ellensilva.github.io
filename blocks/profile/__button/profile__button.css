@@ -1,0 +1,29 @@
+.profile__button{
+  background: #000000;
+  border: #000000;
+}
+
+@media screen and (min-width: 471px) and (max-width: 767px){
+  .profile__block{
+    width: 47vh;
+    padding-left: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px){
+  .profile__block{
+    width: 30vh;
+  }
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1200px){
+  .profile__block{
+    width: 60vh;
+  }
+}
+
+@media screen and (min-width: 471px) and (max-width: 767px){
+  .profile__img{
+    width: 50vh;
+  }
+}

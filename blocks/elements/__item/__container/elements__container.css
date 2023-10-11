@@ -1,0 +1,28 @@
+.elements__container {
+  position: relative;
+  display: inline-block;
+}
+
+@media screen and (max-width: 320px) {
+  .elements__container {
+    width: 50vh;
+    left: 50%;
+    transform: translate(-52%, 0%);
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 680px) {
+  .elements__container {
+    width: 50vh;
+    left: 50%;
+    transform: translate(-60%, 0%);
+  }
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1200px) {
+  .elements__container {
+    width: 50vh;
+    left: 50%;
+    transform: translate(-60%, 0%);
+  }
+}

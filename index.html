@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Around The U.S.</title>
+  <link rel="stylesheet" href="page/index.css">
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+</head>
+<body>
+  <div class="page">
+      <header class="header">
+          <img src="images/Vector-2.svg" class="header__logo" alt="logo Around The US">
+          <img src="images/Line.png" class="header__line" alt="linha">
+      </header>
+  </div>
+  <div class="profile">
+    <img src="images/Avatar.png" class="profile__avatar" alt="avatar">
+    <div class="profile__text">
+      <div class="profile__block">
+    <h1 class="profile__title">Jacques Cousteau</h1>
+    <h3 class="profile__subtitle">Explorar</h3>
+  </div>
+  <div class="profile__img">
+          <img src="images/Edit%20Button.png" id="Img" class="profile__image" alt="botao de editar">
+<div id="Modal" class="form">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <form novalidate>
+      <h2 class="modal-content__title">Editar perfil</h2>
+      <input type="text" class="modal-content__name" value="Jacques Cousteau" placeholder="Digite seu nome" required minlength="2" maxlength="40"><br><br>
+      <div class="error-message" id="name-error"></div>
+      <input type="text" class="modal-content__text"  placeholder="Explorar" required minlength="2" maxlength="200"><br><br>
+      <div class="error-message" id="job-error"></div>
+      <button type="submit" class="modal-content__button">Salvar</button>
+    </form>
+  </div>
+</div>
+<div class="overlay"></div>
+    </div>
+    </div>
+    <div class="button">
+      <div class="profile__button">
+        <img src="images/Add%20Button.png" class="profile__add" alt="botao de adicionar">
+        <div class="popup" id="popup">
+          <div class="popup-content">
+            <span class="close" id="close">&times;</span>
+            <h2 class="popup-content__title">Novo local</h2>
+            <form id="card-form" class="popup-content__form">
+            <input type="text" id="title" name="title" class="popup-content__local" placeholder="Titulo" required minlength="2" maxlength="30"><br><br>
+            <div class="error-message" id="title-error"></div>
+            <input type="text" id="link" name="link" class="popup-content__link"  placeholder="Link de imagem" required><br><br><br>
+            <div class="error-message" id="link-error"></div>
+            <button id="addCard" class="popup-content__button">Salvar</button>
+          </form>
+          </div>
+        </div>
+          <div class="overlay second-overlay" id="second-overlay"></div>
+      </div>
+    </div>
+  </div>
+  <div class="elements">
+   <div class="elements__item">
+    <div class="elements__container">
+    <img src="images/Group.png" class="elements__delete" alt="Excluir">
+    <img src="images/Rectangle.png" class="elements__rectangle" alt="retangulo branco">
+    <img src="images/kirill-pershin-1088404-unsplash.png" class="elements__photo" alt="Foto do Vale de Yosemite">
+   </div>
+    <div class="elements__group">
+    <h2 class="elements__title">Vale de Yosemite</h2>
+    <img src="images/Vector.png" class="elements__like" alt="curtida">
+    <img src="images/Union.png" class="elements__like-active" alt="curtida">
+  </div>
+  </div>
+  <div class="elements__item">
+    <div class="elements__container">
+    <img src="images/Group.png" class="elements__delete" alt="Excluir">
+    <img src="images/Rectangle.png" class="elements__rectangle" alt="retangulo branco">
+    <img src="images/kirill-pershin-1404681-unsplash.png" class="elements__photo" alt="Foto do Lago Louise localizado no Canadá">
+    </div>
+    <div class="elements__group">
+    <h2 class="elements__title">Lago Louise</h2>
+    <img src="images/Vector.png" class="elements__like like-button" alt="curtida">
+    <img src="images/Union.png" class="elements__like-active" alt="curtida">
+    </div>
+  </div>
+  <div class="elements__item">
+    <div class="elements__container">
+    <img src="images/Group.png" class="elements__delete" alt="Excluir">
+    <img src="images/Rectangle.png" class="elements__rectangle" alt="retangulo branco">
+    <img src="images/kirill-pershin-1556355-unsplash.png" class="elements__photo" alt="Foto das Montanhas Cariboo">
+    </div>
+    <div class="elements__group">
+    <h2 class="elements__title">Montanhas Cariboo</h2>
+    <img src="images/Vector.png" class="elements__like like-button" alt="curtida">
+    <img src="images/Union.png" class="elements__like-active" alt="curtida">
+    </div>
+  </div>
+  <div class="elements__item">
+    <div class="elements__container">
+    <img src="images/Group.png" class="elements__delete" alt="Excluir">
+    <img src="images/Rectangle.png" class="elements__rectangle" alt="retangulo branco">
+    <img src="images/kirill-pershin-1404681-unsplash-1.png" class="elements__photo" alt="Foto do Latemar">
+    </div>
+    <div class="elements__group">
+    <h2 class="elements__title">Latemar</h2>
+    <img src="images/Vector.png" class="elements__like like-button" alt="curtida">
+    <img src="images/Union.png" class="elements__like-active" alt="curtida">
+    </div>
+  </div>
+  <div class="elements__item">
+    <div class="elements__container">
+    <img src="images/Group.png" class="elements__delete" alt="Excluir">
+    <img src="images/Rectangle.png" class="elements__rectangle" alt="retangulo branco">
+    <img src="images/kirill-pershin-1556355-unsplash-1.png" class="elements__photo" alt="Foto do Vanoise National Park">
+    </div>
+    <div class="elements__group">
+    <h2 class="elements__title">Vanoise National Park</h2>
+    <img src="images/Vector.png" class="elements__like like-button" alt="curtida">
+    <img src="images/Union.png" class="elements__like-active" alt="curtida">
+    </div>
+  </div>
+    <div class="elements__item">
+    <div class="elements__container">
+    <img src="images/Group.png" class="elements__delete" alt="Excluir">
+    <img src="images/Rectangle.png" class="elements__rectangle" alt="retangulo branco">
+    <img src="images/kirill-pershin-1088404-unsplash-1.png" class="elements__photo" alt="Foto do Lago di Braies">
+    </div>
+    <div class="elements__group">
+    <h2 class="elements__title">Lago di Braies</h2>
+    <img src="images/Vector.png" class="elements__like like-button" alt="curtida">
+    <img src="images/Union.png" class="elements__like-active" alt="curtida">
+    </div>
+    </div>
+ </div>
+ <div id="enlargeModal" class="enlargeModal">
+  <span class="fechar">&times;</span>
+  <img id="myPlace" class="myPlace"  src="#" alt="Imagem ampliada">
+  <p id="captar" class="captar"></p>
+</div>
+  <footer class="footer">
+        <p class="footer__text">&copy; 2023 Around The U.S.</p>
+  </footer>
+<script src="script.js"></script>
+<script src="validate.js"></script>
+</body>
+</html>

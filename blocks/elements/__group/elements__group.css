@@ -1,0 +1,11 @@
+.elements__group{
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 320px) and (max-width: 680px) {
+  .elements__group{
+    justify-content: center;
+  }
+}
+

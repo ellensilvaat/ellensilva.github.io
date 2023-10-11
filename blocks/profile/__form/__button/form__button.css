@@ -1,0 +1,29 @@
+.modal-content__button{
+  width: 358px;
+  height: 50px;
+  background: #000000;
+  border-radius: 2px;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+.modal-content__button:hover{
+  opacity: .5;
+}
+
+@media screen and (min-width: 320px) and (max-width: 470px){
+  .modal-content__button{
+    width: 34vh;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 471px) and (max-width: 900px){
+  .modal-content__button{
+    width: 40vh;
+  }
+}

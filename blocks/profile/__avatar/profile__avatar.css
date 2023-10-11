@@ -1,0 +1,41 @@
+.profile__avatar{
+  width: 120px;
+  height: 120px;
+  padding-top: 36.25px;
+}
+
+@media screen and (max-width: 319px){
+  .profile__avatar{
+    width: 30%;
+    height: 30%;
+    padding-top: 36.15px;
+    margin: auto;
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 470px){
+  .profile__avatar{
+    width: 168.75px;
+    height: 168.75px;
+    padding-top: 36.15px;
+    margin: auto;
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 471px) and (max-width: 767px){
+  .profile__avatar{
+    width: 30%;
+    height: 30%;
+    padding-top: 36.15px;
+    margin: auto;
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+  .profile__avatar{
+    padding-left: 50px;
+  }
+}

@@ -1,0 +1,43 @@
+.elements__photo{
+  position: relative;
+  margin: 0;
+  padding-top: 25px;
+  padding-left: 25px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.elements__item.new-card {
+  width: 282px;
+}
+
+.elements__photo.new-card {
+  width: 282px;
+  height: 282px;
+  max-width: 282px;
+  border-radius: 36px 31px 0 0;
+}
+
+@media screen and (max-width: 320px) {
+  .elements__photo{
+    padding-left: 25px;
+    width: 47vh;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 680px) {
+  .elements__photo{
+    padding-left: 27px;
+    width: 49.5vh;
+  }
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1200px) {
+  .elements__photo{
+    width: 41vh;
+  }
+}
+
+
+

@@ -1,0 +1,16 @@
+.modal-content__text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #000000;
+}
+
+.modal-content__link{
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #000000;
+  padding-top: 15px;
+}

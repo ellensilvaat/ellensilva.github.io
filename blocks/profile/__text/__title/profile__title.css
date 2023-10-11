@@ -1,0 +1,27 @@
+.profile__title{
+  font-family: 'Inter';
+  font-style: inherit;
+  font-size: 42px;
+  line-height: 1.14;
+  padding-top: 62px;
+  text-align: start;
+  color: #FFFFFF;
+  margin: 0;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 320px) and (max-width: 470px){
+  .profile__title{
+    font-size: 22px;
+    line-height: 1.27;
+    padding-left: 48px;
+    width: 40vh;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+  .profile__title{
+    font-size: 30px;
+    line-height: 1.27;
+  }
+}

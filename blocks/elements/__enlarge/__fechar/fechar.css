@@ -1,0 +1,16 @@
+.fechar {
+  position: absolute;
+  top: 40px;
+  right: 165px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  }
+
+  .fechar:hover,
+  .fechar:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+  }
